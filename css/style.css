@@ -980,6 +980,15 @@ body.ie ._ibg img {
   transition: all 1.3s ease 0s;
 }
 
+.page__widget {
+  position: absolute;
+  bottom: auto !important;
+  top: 10px !important;
+  left: 0px !important;
+  width: 100%;
+  padding: 0 10px;
+}
+
 .page__container {
   padding-top: 100px;
   display: -webkit-box;

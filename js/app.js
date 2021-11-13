@@ -109,6 +109,13 @@ if (iconMenu != null) {
 	iconMenu.addEventListener("click", function (e) {
 
 		iconMenu.classList.toggle("_active");
+		pageSide.classList.toggle("_side-wrapper");
+
+		document.querySelector(".page__widget").classList.toggle('_side-block');
+
+
+
+
 		if (pageSide.classList.contains('_display')) {
 			setTimeout(function () {
 				pageSide.classList.remove('_display');
